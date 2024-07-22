@@ -1,6 +1,12 @@
+import ServerTemplate from "../ServerTemplate/ServerTemplate"
+
+import './home.css'
+
 function Home() {
     return (
-        <div>Home</div>
+        <section id="home">
+            <ServerTemplate />
+        </section>
     )
 }
 

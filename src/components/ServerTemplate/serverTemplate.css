@@ -1,0 +1,126 @@
+#templates {
+    margin-top: 20px;
+}
+
+.templates {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 20px 5%;
+}
+
+.template-card {
+    height: fit-content;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.template-card .card-body {
+    padding: 1rem;
+}
+
+.card-body .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.card-body .card-desc {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--tertiary-color);
+    margin-bottom: 1rem;
+}
+
+.card-body .link-uses {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.card-body .link-uses h5 {
+    font-size: 1.2rem;
+    margin-left: 0.7rem;
+}
+
+.card-body a button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+
+.card-body a button:hover {
+    background-color: var(--secondary-color);
+}
+
+.card-body .tags {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0.6rem;
+    gap: 0.5rem;
+}
+
+.card-body .tags span {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.card-body h6 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    color: var(--tertiary-color)
+}
+
+.template-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    object-fit: contain;
+}
+
+@media (max-width: 767px) {
+    .col-md-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        -ms-flex: 0 0 33%;
+        flex: 0 0 33%;
+        max-width: 33%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
