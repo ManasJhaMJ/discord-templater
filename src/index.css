@@ -14,7 +14,7 @@
     --primary-color: #754ffe;
     --secondary-color: #1a1c23;
     --tertiary-color: #777;
-    --background-color: #ffffff;
+    --background-color: #F5F7F8;
 
     --font-one: "Space Grotesk", sans-serif;
     --font-two: "JetBrains Mono", monospace;
@@ -29,7 +29,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F5F7F8;
+    background-color: var(--background-color);
 }
 
 h1,
@@ -45,6 +45,7 @@ h6 {
 p {
     font-family: var(--font-two);
     font-weight: 400;
+    font-size: 1rem;
 }
 
 span {
