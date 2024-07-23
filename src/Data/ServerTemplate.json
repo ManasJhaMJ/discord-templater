@@ -1,16 +1,16 @@
 [
     {
-        "id" : 1,
+        "id" : 0,
         "image":"https://i.imgur.com/tRgh7V9.png",
-        "title": "Gaming Server (Initial)",
+        "title": "Gaming Server (Beginner)",
         "description": "A gaming discord server template for newly setup communities. Includes necessary initial channels and roles.",
         "link": "",
         "author": "@mj10",
-        "tags": ["gaming", "community", "initial"],
+        "tags": ["gaming", "community", "Beginner"],
         "uses": 0
     },
     {
-        "id" : 2,
+        "id" : 1,
         "image":"https://i.imgur.com/cD7bERX.png",
         "title": "Hackathon Server type 1",
         "description": "A discord server template for hackathons. Includes necessary channels and roles for hackathon participants.",
@@ -20,7 +20,7 @@
         "uses": 0
     },
     {
-        "id" : 3,
+        "id" : 2,
         "image":"https://i.imgur.com/VOuF3XT.png",
         "title": "MLH Hackathon Template (Improved)",
         "description": "An improved version of the MLH Hackathon template. Includes necessary channels and roles for hackathon participants.",
@@ -30,7 +30,7 @@
         "uses": 0
     },
     {
-        "id" : 4,
+        "id" : 3,
         "image":"https://i.imgur.com/bHwMM6H.png",
         "title": "Music Server",
         "description": "A discord server template for music lovers. Includes necessary channels and roles for music lovers.",
@@ -40,7 +40,7 @@
         "uses": 0
     },
     {
-        "id" : 5,
+        "id" : 4,
         "image":"https://i.imgur.com/bxysrq2.png",
         "title": "Anime Server",
         "description": "A discord server template for anime lovers. Includes necessary channels and roles for anime lovers.",
@@ -50,7 +50,7 @@
         "uses": 0
     },
     {
-        "id" : 6,
+        "id" : 5,
         "image":"https://i.imgur.com/lMNzvnG.png",
         "title": "Tech Server",
         "description": "A discord server template for tech enthusiasts. Includes necessary channels and roles for tech enthusiasts.",
@@ -60,7 +60,7 @@
         "uses": 0
     },
     {
-        "id" : 7,
+        "id" : 6,
         "image":"https://i.imgur.com/bHwMM6H.png",
         "title": "Study Group Server",
         "description": "A discord server template for study groups. Includes necessary channels and roles for study group participants.",
