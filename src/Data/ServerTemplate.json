@@ -1,4 +1,5 @@
-[
+{
+    "ServerTemplate": [
     {
         "id" : 0,
         "image":"https://i.imgur.com/tRgh7V9.png",
@@ -12,7 +13,7 @@
     {
         "id" : 1,
         "image":"https://i.imgur.com/cD7bERX.png",
-        "title": "Hackathon Server type 1",
+        "title": "Hackathon Server Template",
         "description": "A discord server template for hackathons. Includes necessary channels and roles for hackathon participants.",
         "link": "",
         "author": "@mj10",
@@ -70,3 +71,4 @@
         "uses": 0
     }
 ]
+}
