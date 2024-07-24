@@ -4,6 +4,9 @@ import App from './App.jsx'
 import Home from './components/Home/Home.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import ServerTemplate from './components/ServerTemplate/ServerTemplate.jsx'
+import EmojisSticker from './components/EmojisSticker/EmojisSticker.jsx'
+import Botsetup from './components/BotSetup/Botsetup.jsx'
 const router = createBrowserRouter([
   {
     path: '/',
@@ -13,18 +16,18 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home />,
       },
-      // {
-      //   path: '/about',
-      //   element: <About />,
-      // },
-      // {
-      //   path: '/work',
-      //   element: <Work />,
-      // },
-      // {
-      //   path: '/contact',
-      //   element: <Contact />,
-      // },
+      {
+        path: '/server-templates',
+        element: <ServerTemplate />,
+      },
+      {
+        path: '/emojis-sticker',
+        element: <EmojisSticker />,
+      },
+      {
+        path: '/bot-setup',
+        element: <Botsetup />,
+      },
     ],
   }
 ])
